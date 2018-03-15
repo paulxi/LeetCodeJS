@@ -1,0 +1,34 @@
+{
+  "name": "leetcodejs",
+  "version": "0.1.0-SNAPSHOT",
+  "description": "LeetCodeJS",
+  "main": "index.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint ./main/** ./test/**",
+    "lint:main": "./node_modules/.bin/eslint ./main/**",
+    "lint:test": "./node_modules/.bin/eslint ./test/**",
+    "test": "./node_modules/mocha/bin/mocha ./test/**/*Spec.js",
+    "test:report": "./node_modules/mocha/bin/mocha ./test/**/*Spec.js --reporter xunit --reporter-options output=./target/test/report.xml"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulxi/LeetCodeJS.git"
+  },
+  "keywords": [
+    "LeetCode",
+    "Algorithm",
+    "Javascript"
+  ],
+  "author": "Paul Xi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/paulxi/LeetCodeJS/issues"
+  },
+  "homepage": "https://github.com/paulxi/LeetCodeJS#readme",
+  "devDependencies": {
+    "eslint": "^4.18.2",
+    "eslint-config-google": "^0.9.1",
+    "mocha": "^5.0.4"
+  },
+  "dependencies": {}
+}
