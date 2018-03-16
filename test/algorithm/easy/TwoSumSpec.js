@@ -1,5 +1,5 @@
 const expect = require('chai').expect;
-const twoSum = require('../../../main/algorithm/easy/TwoSum.js');
+const twoSum = require('../../../main/algorithm/easy/TwoSum');
 
 describe('Two Sum', function() {
     it('should return 2 numbers', function() {
