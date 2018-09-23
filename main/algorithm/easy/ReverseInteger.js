@@ -12,11 +12,11 @@ const reverse = function(x) {
         let pos = num % 10;
         num = Math.trunc(num / 10);
 
-        if (rev > MAX_INT32 / 10 || (rev == MAX_INT32 / 10 && pos > posRemainder)) {
+        if (rev > Math.trunc(MAX_INT32 / 10) || (rev == Math.trunc(MAX_INT32 / 10) && pos > posRemainder)) {
             return 0;
         }
 
-        if (rev < MIN_INT32 / 10 || (rev == MIN_INT32 / 10 && pos < negRemainder)) {
+        if (rev < Math.trunc(MIN_INT32 / 10) || (rev == Math.trunc(MIN_INT32 / 10) && pos < negRemainder)) {
             return 0;
         }
 
