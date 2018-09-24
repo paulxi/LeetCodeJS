@@ -25,3 +25,4 @@ const isValid = function(s) {
 const Parentheses = new Map([['}', '{'], [')', '('], [']', '[']]);
 
 module.exports = isValid;
+
