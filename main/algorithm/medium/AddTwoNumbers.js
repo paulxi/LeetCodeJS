@@ -1,4 +1,4 @@
-const ListNode = require('./ListNode');
+const ListNode = require('../common/ListNode');
 
 /**
  * @param {ListNode} l1

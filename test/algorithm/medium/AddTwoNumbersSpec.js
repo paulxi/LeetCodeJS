@@ -1,5 +1,5 @@
 const expect = require('chai').expect;
-const ListNode = require('../../../main/algorithm/medium/ListNode');
+const ListNode = require('../../../main/algorithm/common/ListNode');
 const addTwoNumbers = require('../../../main/algorithm/medium/addTwoNumbers');
 
 describe('Add Two Numbers', function() {
