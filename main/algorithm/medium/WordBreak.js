@@ -3,7 +3,7 @@
  * @param {string[]} wordDict
  * @return {boolean}
  */
-const wordBreak = function (s, wordDict) {
+const wordBreak = function(s, wordDict) {
     const wordSet = new Set(wordDict);
     const dp = new Array(s.length + 1);
     dp[0] = true;
@@ -21,3 +21,4 @@ const wordBreak = function (s, wordDict) {
 };
 
 module.exports = wordBreak;
+
