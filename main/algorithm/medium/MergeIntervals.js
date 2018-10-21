@@ -1,8 +1,3 @@
-function Interval(start, end) {
-    this.start = start;
-    this.end = end;
-}
-
 const merge = function(intervals) {
     intervals.sort((lhs, rhs) => {
         return lhs.start - rhs.start;
@@ -23,10 +18,7 @@ const merge = function(intervals) {
     }, []);
 };
 
-module.exports = {
-    'merge': merge,
-    'Interval': Interval
-};
+module.exports = merge;
 
 
 
