@@ -5,7 +5,7 @@ const generateParenthesis = function(n) {
 };
 
 const backtrace = function(ans, cur, open, close, max) {
-    if (cur.length == max * 2) {
+    if (cur.length === max * 2) {
         ans.push(cur);
         return;
     }
